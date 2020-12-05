@@ -11,7 +11,7 @@ const Categories = ()=>{
                 <h1 className="menu-section-heading">Products</h1>
             </div>
             <div className="col-12 col-md-6 col-lg-3">
-                <div className="shadow menu-item-card p-3 mb-3">
+                <div className="shadow menu-item-card p-3 mb-3" >
                     <img src="https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2017/01/IMG_8877-2.jpg" className="menu-item-image w-100" />
                     <h1 className="menu-card-title">Birthday Gifts</h1>
                     <a href="" className="menu-item-link">
