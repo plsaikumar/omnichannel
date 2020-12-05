@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Navigation from "./Components/Navigation/Navigation"
+import Categories from "./Components/Categories/Categories"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       Omni Channel
-      </header>
+    <div >
+     <Navigation />
+     <Categories />
+     <Footer />
     </div>
   );
 }
