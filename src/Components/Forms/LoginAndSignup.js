@@ -11,16 +11,16 @@ const LoginAndSignup= () => {
                          <h3 >Sign Up</h3>
                     </div> 
                     <div className="col-12 col-md-8 col-lg-8 form-group">
-                        <input type="text" className="form-control" placeholder="Enter Your Name" id="email" />
+                        <input type="text" className="form-control" placeholder="Name" id="email" />
                     </div>
                     <div className="col-12 col-md-8 col-lg-8 form-group">
-                        <input type="email" className="form-control" placeholder="Enter Your Email" id="email" />
+                        <input type="email" className="form-control" placeholder="Email" id="email" />
                     </div>
                     <div className="col-12 col-md-8 col-lg-8 form-group">
-                        <input type="password" className="form-control" placeholder="Enter Your Password" id="email" />
+                        <input type="password" className="form-control" placeholder="Password" id="email" />
                     </div>
                     <div className="col-12 col-md-8 col-lg-8 form-group">
-                        <input type="password" className="form-control" placeholder="Enter Confirm Your Password" id="email" />
+                        <input type="password" className="form-control" placeholder="Confirm Password" id="email" />
                     </div>
                     <div className="col-12 col-md-8 col-lg-8">
                     <button type="reset" className="btn btn-secondary ml-5 " >Reset</button>
@@ -37,10 +37,10 @@ const LoginAndSignup= () => {
                     </div> 
                    
                     <div className="col-12 col-md-8 col-lg-8 form-group">
-                        <input type="email" className="form-control" placeholder="Enter Your Email" id="email" />
+                        <input type="email" className="form-control" placeholder="Email" id="email" />
                     </div>
                     <div className="col-12 col-md-8 col-lg-8 form-group">
-                        <input type="password" className="form-control" placeholder="Enter Your Password" id="email" />
+                        <input type="password" className="form-control" placeholder="Password" id="email" />
                     </div>
                     <div className="col-12 col-md-12 col-lg-12" style={{float:"right"}}>
                     <Link>Forget Password ?</Link>

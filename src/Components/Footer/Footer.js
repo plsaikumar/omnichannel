@@ -9,7 +9,10 @@ const Footer =()=>{
      <div className="container">
          <div className="row">
              <div className="col-12 text-center">
-                 <h1 className="footer-section-mail-id">support@omnichannel.com</h1>
+                 <h1 className="footer-section-mail-id">
+                     <i class="fa fa-envelope pr-1" aria-hidden="true"></i>
+                     support@omnichannel.com
+                   </h1>
                
              </div>
          </div>

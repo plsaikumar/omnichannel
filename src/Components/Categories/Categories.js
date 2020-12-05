@@ -26,7 +26,7 @@ const Categories = ()=>{
           
             <div className="col-12 col-md-6 col-lg-3">
                 <div className="menu-item-card shadow p-3 mb-3">
-                    <img src="https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2020/01/IMG_8587.jpg" alt="decorative" className="menu-item-image w-100" />
+                    <img src="https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2018/07/IMG_3839-1.jpg" alt="decorative" className="menu-item-image w-100" />
                     <h1 className="menu-card-title">Decorative Gifts</h1>
                     <Link className="menu-item-link" to="#">
                         View All
