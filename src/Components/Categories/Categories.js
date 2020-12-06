@@ -2,7 +2,56 @@ import React from "react"
 import "./Categories.css"
 import {Link} from "react-router-dom"
 const Categories = ()=>{
-
+    const categoryList=[
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2017/01/IMG_8877-2.jpg",
+            title:"Birthday Gift",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2018/07/IMG_3839-1.jpg",
+            title:"Decorative Gift",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2019/10/IMG_0926.jpg",
+            title:"Diwali",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2019/12/Tb-min-5.jpg",
+            title:"Christmas Gift",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2020/06/optimized-7hpr-1.jpg",
+            title:"Father's Day Gift",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2019/10/IMG_5625.jpg",
+            title:"Mother's Day Gift",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2020/01/Untitled-design-40-3.jpg",
+            title:"Friendship Day Gift",
+            price:"",
+           
+        },
+        {
+            image:"https://oyehappy.sgp1.digitaloceanspaces.com/wp-content/uploads/2017/07/2-1.jpg",
+            title:"Anniversary Gift",
+            price:"",
+           
+        }
+    ]
     return(
         
     <div className="explore-menu-section pt-5 pb-5">
