@@ -7,7 +7,7 @@ const Navigation = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light ">
                 <div className="container">
-                    <Link className="navbar-brand" to="/"> <img className="navbar_logo" src="https://www.freelogodesign.org/file/app/client/thumb/3b951805-80f2-4474-b21c-114cac7ef88b_200x200.png?1607154050065"/></Link>
+                    <Link className="navbar-brand" to="/"> <img className="navbar_logo" alt="omnichannel" src="https://www.freelogodesign.org/file/app/client/thumb/3b951805-80f2-4474-b21c-114cac7ef88b_200x200.png?1607154050065"/></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
