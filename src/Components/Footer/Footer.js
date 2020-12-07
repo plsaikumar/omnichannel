@@ -23,7 +23,7 @@ const Footer = () => {
                         <h1 className="footer-section-mail-id">
                         <p className="footer_link_header">Reach Us</p>
 
-                            <i class="fa fa-envelope pr-1" aria-hidden="true"></i>
+                            <i className="fa fa-envelope pr-1" aria-hidden="true"></i>
                             <a  className="footer_link" href="mailto:support@omnichannel.com">support@omnichannel.com</a>        
                         </h1>
 
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div className="row text-center pt-3">
                     <div className="col-12">
-                        <p className="copyright"><i class="fa fa-copyright" aria-hidden="true"></i>2020 omnichannel</p>
+                        <p className="copyright"><i className="fa fa-copyright" aria-hidden="true"></i>2020 omnichannel</p>
                     </div>
                   </div>
             </div>
