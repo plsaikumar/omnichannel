@@ -21,19 +21,26 @@
     margin-top: 24px;
   }
   .menu-item-link {
-    color: #d0b200;
-    font-family: "Roboto";
+    background-color: #00a79d !important;
+    border: 1px solid #00a79d !important;
+    border-radius: 5px;
     font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+  
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+  
   }
   .menu-item-link:hover{
       text-decoration: none;
-      color:   #0d2436;
+      color:   white;
   }
   .menu-item-card {
     border-radius: 16px;
     transition: transform .2s;
-    
+    text-align: center;
 
   }
  
@@ -42,3 +49,7 @@
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
   }
+
+  
+ 
+

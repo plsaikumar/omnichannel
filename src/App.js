@@ -1,7 +1,7 @@
 import React from "react"
 import Navigation from "./Components/Navigation/Navigation"
 import Home from "./Pages/Home"
-import LoginAndSignup from "./Components/Forms/LoginAndSignup"
+import LoginAndSignup from "./Components/Forms/Froms"
 import Footer from "./Components/Footer/Footer"
 
 import {
