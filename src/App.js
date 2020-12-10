@@ -3,7 +3,7 @@ import Navigation from "./Components/Navigation/Navigation"
 import Home from "./Pages/Home"
 import LoginAndSignup from "./Components/Forms/Froms"
 import Footer from "./Components/Footer/Footer"
-
+import Cart from "./Components/Cart/Cart"
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,7 +25,10 @@ function App() {
         </Route>
         <Route path="/login-signup">
           <LoginAndSignup />
-        </Route>
+          </Route>
+          <Route path="/shoppingCart">
+          <Cart/>
+          </Route>
       </Switch>
 
       <Footer />
