@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navigation.css"
 import { Link, useHistory, withRouter } from "react-router-dom"
 import { signout, isAuthenticated } from "../../auth/index"
+import {itemTotal} from "../../core/cartHelper"
 
 
+const Navigation = ({history}) => {
 
-const Navigation = () => {
 
-    const history = useHistory()
+    const isActive = (history, path) => {
+        if (history.location.pathname === path) {
+            return { color: "#ff9900" }
+        } else {
+            return { color: "#000000" }
+        }
+    }
+   
+    
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light ">
@@ -18,11 +28,41 @@ const Navigation = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ml-auto">
-                            <Link className="nav-link active" id="navItem1" to="/home">
+            {/*                 <div className="nav-item">
+
+                            <Link className="nav-link active" id="navItem1" style={isActive(history, "/home")} to="/home">
                                 Home
-                        <span className="sr-only">(current)</span>
                             </Link>
-  
+                            </div> */}
+                            <div className="nav-item">
+
+                                <Link className="nav-link active" id="navItem1" style={isActive(history, "/homepage")} to="/homepage">
+                                    Home
+                                </Link>
+                            </div>
+                            <div className="nav-item">
+
+                                <Link className="nav-link active" id="navItem1" style={isActive(history, "/cart")} to="/cart">
+                                <i class="fas fa-shopping-cart pr-2"></i>
+                                    <sup>
+                                        <span>{itemTotal()}</span>
+                                    </sup>
+                                </Link>
+                            </div>
+                            {isAuthenticated() && isAuthenticated().user.role === 0 && (
+                                    <div className="nav-item">
+                                    <Link className="nav-link"  to="/user/dashboard" style={isActive(history, "/user/dashboard")}>
+                                        Dashboard
+                                    </Link>
+                                </div>
+                            )}
+                                {isAuthenticated() && isAuthenticated().user.role === 1 && (
+                            <div className="nav-item">
+                                    <Link className="nav-link"  to="/admin/dashboard" style={isActive(history, "/admin/dashboard")}>
+                                        Dashboard
+                                    </Link>
+                                </div>
+                            )}
 
                             {!isAuthenticated() && (
                                 <div>
@@ -31,13 +71,7 @@ const Navigation = () => {
                                 </div>
                             )}
 
-                            {isAuthenticated() && (
-                                <div>
-                                    <p className="nav-link pl-2 pr-2 ">
-                                        Welcome {JSON.parse(localStorage.getItem("jwt")).user.name}
-                                </p>
-                                </div>
-                            )}
+                       
 
                             {isAuthenticated() && (
 

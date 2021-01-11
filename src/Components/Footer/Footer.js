@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css"
 
-const Footer = () => {
-
+const Footer = (props) => {
 
     return (
         <div className="footer-section pt-5 pb-3">

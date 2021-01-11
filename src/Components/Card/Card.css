@@ -20,31 +20,34 @@
     font-weight: 500;
     margin-top: 24px;
   }
-  .menu-item-link {
-    background-color: #00a79d !important;
-    border: 1px solid #00a79d !important;
+  .add-to-cart-item {
+    background-color: #00a79d ;
+    border: 1px solid #00a79d ;
     border-radius: 5px;
     font-size: 14px;
-    text-align: center;
     color: #ffffff;
-    display: block;
-  
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
   
   }
-  .menu-item-link:hover{
-      text-decoration: none;
-      color:   white;
+
+ .view-item {
+    background-color: #ec5459 ;
+    border: 1px solid #ec5459 ;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
+ 
   .menu-item-card {
     border-radius: 16px;
-    transition: transform .2s;
     text-align: center;
 
   }
  
- 
+  
 
   
  
