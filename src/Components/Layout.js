@@ -1,20 +1,15 @@
-import React from "react"
-import "../styles.css"
+import React from "react";
+import "../styles.css";
 
-
-const Layout = ({title="Title",description,children,className}) =>{
-    return(
-        <div>
-        <div className="jumbotron">
-            <h2>{title}</h2>
-            <p className="lead">{description}</p>
-        </div>
-        <div className={className}>
-            {children}
-        </div>
-        
-        </div>
-
-    )
-}
+const Layout = ({ title = "Title", description, children, className }) => {
+  return (
+    <div className="layout">
+      <div className="jumbotron">
+        <h2>{title}</h2>
+        <p className="lead">{description}</p>
+      </div>
+      <div className={className}>{children}</div>
+    </div>
+  );
+};
 export default Layout;

@@ -1,52 +1,59 @@
-.cartDetails{
-    border-style: solid;
-    border-color:#ccc;
-    border-width:thin;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    }
-    .cartImage{
-        width:120px;
-        height:80px;
-        border-radius: 7px;
-    }
-    .cartTitle{
-        font-size: 10px;
-    }
-    .label{
-        color:#ccc;
-        margin-right: 4px;
-        text-align: center!important;
-    }
-    .dropDown{
-        border-color: rgb(61, 59, 59);
-        text-align: center;
-        cursor: pointer;
-
-    }
-   /*  .quantity{
+.cartDetails {
+  border-style: solid;
+  border-color: #ccc;
+  border-width: thin;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cartImage {
+  width: 120px;
+  height: 80px;
+  border-radius: 7px;
+}
+.cartTitle {
+  font-size: 10px;
+}
+.label {
+  color: #ccc;
+  margin-right: 4px;
+  text-align: center !important;
+}
+.dropDown {
+  border-color: rgb(61, 59, 59);
+  text-align: center;
+  cursor: pointer;
+}
+/*  .quantity{
       text-align: center;
     } */
-    .price{
-        color:#ec5459;
-        /* text-align: right; */
-    }
-    .remove{
-        text-align: center;
-        border-style: solid;
-        border-color: #ccc;
-        border-width: thin;
-        border-top: none;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        height:35px;
-    }
-    .viewCart{
-        border-style: solid;
-        border-color:#ccc;
-        border-width:thin;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;       
-        margin: 10px;
-        width: 70%;
-    }
+.price {
+  color: #ec5459;
+  /* text-align: right; */
+}
+.remove {
+  text-align: center;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: thin;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 35px;
+}
+.viewCart {
+  border-style: solid;
+  border-color: #ccc;
+  border-width: thin;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 10px;
+}
+.dropDown {
+  border-radius: 3px;
+}
+.deleteIcon {
+  cursor: pointer;
+}
+.deleteIcon:hover {
+  color: #21a3ed;
+}

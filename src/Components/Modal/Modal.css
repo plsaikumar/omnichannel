@@ -1,0 +1,27 @@
+#modal {
+  margin-top: 120px;
+}
+
+.checkout-bag {
+  color: #03a1fc;
+  background-color: rgba(55, 125, 255, 0.1);
+  border-radius: 3px;
+  padding: 12px;
+  text-decoration: none !important;
+  transition: 0.3s;
+}
+
+.checkout-bag:hover {
+  background-color: #21a3ed;
+  color: #ffffff;
+}
+.shopping {
+  color: grey;
+  display: block;
+  padding-top: 15px;
+  text-decoration: none !important;
+}
+
+.shopping:hover {
+  color: #03a1fc;
+}

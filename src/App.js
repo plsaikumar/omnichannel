@@ -1,25 +1,19 @@
-import React from "react"
-import Navigation from "./Components/Navigation/Navigation"
-import Home from "./Pages/Home"
+import React from "react";
+import Navigation from "./Components/Navigation/Navigation";
+import Home from "./Pages/Home";
 import HomePage from "./Components/HomePage/Homepage";
-import LoginAndSignup from "./Components/Forms/Froms"
-import Footer from "./Components/Footer/Footer"
-import AdminDashboard from "./Components/AdminDashBoard"
-import Dashboard from "./Components/UserDashboard"
-import PrivateRoute from "./auth/PrivateRoutes"
-import AdminRoute from "./auth/AdminRoute"
-import AddCategory from "./admin/AddCategory"
-import AddProduct from "./admin/AddProduct"
-import Product from "./Components/Product"
-import Cart from "./Components/Cart/Cart"
-import ViewCart from "./Components/ViewCart/ViewCart"
+import LoginAndSignup from "./Components/Forms/Froms";
+import Footer from "./Components/Footer/Footer";
+import AdminDashboard from "./Components/AdminDashBoard";
+import Dashboard from "./Components/UserDashboard";
+import PrivateRoute from "./auth/PrivateRoutes";
+import AdminRoute from "./auth/AdminRoute";
+import AddCategory from "./admin/AddCategory";
+import AddProduct from "./admin/AddProduct";
+import Product from "./Components/Product";
+import Cart from "./Components/Cart/Cart";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -34,14 +28,12 @@ function App() {
           <Home />
         </Route> */}
         <Route exact path="/homepage" component={HomePage} />
-        
+
         <Route path="/login-signup">
           <LoginAndSignup />
         </Route>
         <Route path="/product/:productId" exact component={Product} />
-        <Route path="/cart" exact component={Cart} />   
-        <Route path="/viewcart" exact component={ViewCart} />
-
+        <Route path="/cart" exact component={Cart} />
 
         <PrivateRoute path="/user/dashboard" exact component={Dashboard} />
         <AdminRoute path="/admin/dashboard" exact component={AdminDashboard} />
@@ -50,7 +42,6 @@ function App() {
       </Switch>
 
       <Footer />
-
     </Router>
   );
 }
